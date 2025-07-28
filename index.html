@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Web Development I</title>
+    <meta name="description" content="Welcome page for Web Development I VS Code onboarding assignment">
+    <meta name="author" content="Web Development I Course">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            margin: 2rem;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            color: #4a5568;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            color: #718096;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .svg-container {
+            margin: 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome-svg {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+        }
+
+        .success-message {
+            background: #48bb78;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            font-weight: 500;
+        }
+
+        .instructions {
+            background: #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .instructions ol {
+            color: #4a5568;
+            padding-left: 1.5rem;
+        }
+
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+
+        /* Animation for the container */
+        .container {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Web Development I</h1>
+        <p class="subtitle">VS Code Onboarding Assignment</p>
+
+        <div class="svg-container">
+            <img src="welcome-cats-dots.svg" alt="Welcome animation with cats and dots" class="welcome-svg">
+        </div>
+
+        <div class="success-message">
+            🎉 Congratulations! Live Server is working perfectly!
+        </div>
+
+        <div class="instructions">
+            <h3>What you've accomplished:</h3>
+            <ol>
+                <li>Successfully cloned your repository</li>
+                <li>Installed the Grid Configurator extension</li>
+                <li>Configured your VS Code environment</li>
+                <li>Tested Live Server functionality</li>
+            </ol>
+        </div>
+
+        <div class="footer">
+            <p>This page confirms that your development environment is working correctly.</p>
+        </div>
+    </div>
+
+    <script>
+        // Simple script to demonstrate VS Code's JavaScript support
+        console.log('Welcome to Web Development I!');
+        console.log('VS Code and Live Server are working correctly.');
+
+        // Add some interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.container');
+
+            // Add a subtle hover effect
+            container.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.02)';
+                this.style.transition = 'transform 0.3s ease';
+            });
+
+            container.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
