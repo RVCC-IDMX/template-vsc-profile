@@ -68,6 +68,22 @@ These settings create a professional development environment that follows indust
    - This mortar board icon indicates that "Web Dev I for GRID" is your active profile
    - Check Extensions (Ctrl+Shift+X) - you should see HTMLHint, Live Server, and Stylelint installed
 
+### Step 3: Download the Missing Image File
+
+The `index.html` file in your repository references an image that needs to be downloaded:
+
+1. **Download the welcome image**
+   - Right-click on this link: [welcome-cats-dots.svg](https://raw.githubusercontent.com/RVCC-IDMX/shared-assets/main/welcome-cats-dots.svg)
+   - Select **"Save link as..."** or **"Download linked file as..."**
+   - Save the file as `welcome-cats-dots.svg` directly in your repository folder (the same folder as `index.html`)
+   - **Important**: Make sure the filename is exactly `welcome-cats-dots.svg`
+
+2. **Test with Live Server**
+   - Right-click on `index.html` in VS Code
+   - Select **"Open with Live Server"**
+   - Your browser should open showing the welcome page with the cat animation
+   - If you see the image, everything is working correctly!
+
 ## Assignment Complete!
 
 Once you've successfully imported and activated the profile, you have completed this assignment. Your VS Code is now configured with professional web development tools.
