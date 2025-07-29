@@ -1,38 +1,25 @@
 # VS Code Profile Assignment
 
-**Objective**: Import and activate the `wdi.code-profile` file to set up your VS Code environment for web development.
+**Objective**: Import and activate a VS Code profile specifically designed for web development with essential extensions and settings.
+
+## What You'll Accomplish
+
+By completing this assignment, you will:
+- Import and activate a professional VS Code profile for web development
+- Set up essential extensions: HTMLHint, Live Server, and Stylelint
+- Download and integrate project assets from external sources
+- Test your development environment with Live Server
 
 ## Why Use This Profile?
 
 This profile contains both essential extensions and optimized settings for web development.
 
-### Extensions Included
+**Extensions Included:**
+- **HTMLHint** - Analyzes your HTML code and flags errors, bad practices, and accessibility issues
+- **Live Server** - Creates a local web server with live reload functionality
+- **Stylelint** - Analyzes your CSS/SCSS code for errors and enforces coding standards
 
-This profile includes three essential extensions that every web developer should have:
-
-### 1. HTMLHint
-- **What it does**: Analyzes your HTML code and flags errors, bad practices, and accessibility issues
-- **Why web developers need it**: Catches common HTML mistakes before they become problems (missing alt attributes, unclosed tags, invalid markup). Professional web developers use linters to maintain code quality and ensure websites work properly across all browsers and devices.
-
-### 2. Live Server
-- **What it does**: Creates a local web server with live reload functionality
-- **Why web developers need it**: See your HTML/CSS/JavaScript changes instantly in the browser without manually refreshing the page. This speeds up development workflow and testing during web development.
-
-### 3. Stylelint
-- **What it does**: Analyzes your CSS/SCSS code for errors, enforces coding standards, and suggests improvements
-- **Why web developers need it**: Prevents CSS errors, maintains consistent code style, and helps you write better, more maintainable stylesheets. Essential for professional CSS development, especially when working in teams or on large projects.
-
-### Settings Included
-
-This profile also includes carefully configured settings that:
-- **Enable auto-formatting** on save to keep your code clean
-- **Set consistent indentation** (4 spaces) for all file types
-- **Configure Git integration** for easier version control
-- **Optimize file handling** with auto-save and whitespace cleanup
-- **Set up proper validation** for HTML, CSS, and JavaScript
-- **Configure Live Server** with appropriate defaults for local development
-
-These settings create a professional development environment that follows industry best practices.
+**Settings Included:** Auto-formatting on save, consistent indentation, Git integration, and optimized validation for HTML, CSS, and JavaScript.
 
 ## Instructions
 
@@ -84,9 +71,27 @@ The `index.html` file in your repository references an image that needs to be do
    - Your browser should open showing the welcome page with the cat animation
    - If you see the image, everything is working correctly!
 
+### Step 4: Commit and Push Your Changes
+
+Since you've added a new file (`welcome-cats-dots.svg`) to your repository, you need to commit and push it to complete the assignment:
+
+1. **Stage the new file**
+   - Open the Source Control panel (click the branch icon in the left sidebar)
+   - You should see `welcome-cats-dots.svg` listed under "Changes"
+   - Click the **+** button next to the filename to stage it
+
+2. **Create a commit**
+   - Type a commit message in the text box: `Add welcome image for Live Server demo`
+   - Click the **checkmark** button (✓) to commit
+
+3. **Push to GitHub**
+   - Click the **three dots** (...) in the Source Control panel
+   - Select **"Push"** from the menu
+   - Your changes will be uploaded to GitHub
+
 ## Assignment Complete!
 
-Once you've successfully imported and activated the profile, you have completed this assignment. Your VS Code is now configured with professional web development tools.
+Once you've successfully imported and activated the profile, downloaded the image file, viewed the working webpage in Live Server, and pushed your changes to GitHub, you have completed this assignment. Your VS Code is now configured with professional web development tools.
 
 ## Beginner's Guide
 
