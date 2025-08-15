@@ -90,3 +90,8 @@ public
 # Temporary folders
 tmp/
 temp/
+
+reports/
+canvas.html
+CLAUDE.md
+.claude

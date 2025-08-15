@@ -1,25 +1,35 @@
 # VS Code Profile Assignment
 
-**Objective**: Import and activate a VS Code profile specifically designed for web development with essential extensions and settings.
+**Objective**: Import and activate a VS Code profile specifically designed for
+web development with essential extensions and settings.
+
+**Important**: This assignment assumes you have already completed the GitHub
+Classroom assignment and have this repository cloned to your local computer
+using VS Code.
 
 ## What You'll Accomplish
 
 By completing this assignment, you will:
+
 - Import and activate a professional VS Code profile for web development
-- Set up essential extensions: HTMLHint, Live Server, and Stylelint
+- Set up essential extensions: HTMLHint and Live Server
 - Download and integrate project assets from external sources
 - Test your development environment with Live Server
+- Submit your completed work via GitHub repository URL
 
 ## Why Use This Profile?
 
-This profile contains both essential extensions and optimized settings for web development.
+This profile contains both essential extensions and optimized settings for web
+development.
 
 **Extensions Included:**
-- **HTMLHint** - Analyzes your HTML code and flags errors, bad practices, and accessibility issues
-- **Live Server** - Creates a local web server with live reload functionality
-- **Stylelint** - Analyzes your CSS/SCSS code for errors and enforces coding standards
 
-**Settings Included:** Auto-formatting on save, consistent indentation, Git integration, and optimized validation for HTML, CSS, and JavaScript.
+- **HTMLHint** - Analyzes your HTML code and flags errors, bad practices, and
+  accessibility issues
+- **Live Server** - Creates a local web server with live reload functionality
+
+**Settings Included:** Auto-formatting on save, consistent indentation, Git
+integration, and optimized validation for HTML, CSS, and JavaScript.
 
 ## Instructions
 
@@ -33,7 +43,7 @@ This profile contains both essential extensions and optimized settings for web d
    - Select **"Profiles"** from the menu
 
 3. **Import the profile**
-   - In the Profiles panel, look for **"Import Profile..."** 
+   - In the Profiles panel, look for **"Import Profile..."**
    - Click **"Import Profile..."**
    - In the Import Profile dialog, navigate to your repository folder
    - Select the `wdi.code-profile` file
@@ -47,22 +57,29 @@ This profile contains both essential extensions and optimized settings for web d
 
 1. **Make it active**
    - The imported profile will now be available in your Profiles list
-   - Click **"Use this Profile for Current Window"** to activate it
+   - Click the **gear icon** (⚙️) again, select **"Profiles"**, then click on
+     **"Web Dev I for GRID"** to activate it (you'll see a checkmark next to
+     the active profile)
    - VS Code will reload with the new profile settings and extensions
 
 2. **Verify it's active**
-   - Look in the bottom-left corner of VS Code - the gear icon should now show a **graduation cap** (🎓) instead of the regular gear
-   - This mortar board icon indicates that "Web Dev I for GRID" is your active profile
-   - Check Extensions (Ctrl+Shift+X) - you should see HTMLHint, Live Server, and Stylelint installed
+   - Look in the bottom-left corner of VS Code - the gear icon should now show
+     a **graduation cap** (🎓) instead of the regular gear
+   - This icon indicates that "Web Dev I for GRID" is your active profile
+   - Check Extensions (Ctrl+Shift+X) - you should see HTMLHint and Live Server
+     installed
 
 ### Step 3: Download the Missing Image File
 
-The `index.html` file in your repository references an image that needs to be downloaded:
+The `index.html` file in your repository references an image that needs to be
+downloaded:
 
 1. **Download the welcome image**
-   - Right-click on this link: [welcome-cats-dots.svg](https://raw.githubusercontent.com/RVCC-IDMX/shared-assets/main/welcome-cats-dots.svg)
+   - Right-click on this link:
+     [welcome-cats-dots.svg](https://raw.githubusercontent.com/RVCC-IDMX/shared-assets/main/welcome-cats-dots.svg)
    - Select **"Save link as..."** or **"Download linked file as..."**
-   - Save the file as `welcome-cats-dots.svg` directly in your repository folder (the same folder as `index.html`)
+   - Save the file as `welcome-cats-dots.svg` directly in your repository
+     folder (the same folder as `index.html`)
    - **Important**: Make sure the filename is exactly `welcome-cats-dots.svg`
 
 2. **Test with Live Server**
@@ -73,7 +90,8 @@ The `index.html` file in your repository references an image that needs to be do
 
 ### Step 4: Commit and Push Your Changes
 
-Since you've added a new file (`welcome-cats-dots.svg`) to your repository, you need to commit and push it to complete the assignment:
+Since you've added a new file (`welcome-cats-dots.svg`) to your repository,
+you need to commit and push it:
 
 1. **Stage the new file**
    - Open the Source Control panel (click the branch icon in the left sidebar)
@@ -89,21 +107,50 @@ Since you've added a new file (`welcome-cats-dots.svg`) to your repository, you 
    - Select **"Push"** from the menu
    - Your changes will be uploaded to GitHub
 
-## Assignment Complete!
+### Step 5: Submit Your Repository URL
 
-Once you've successfully imported and activated the profile, downloaded the image file, viewed the working webpage in Live Server, and pushed your changes to GitHub, you have completed this assignment. Your VS Code is now configured with professional web development tools.
+Now that you've completed all the work and pushed your changes to GitHub, you
+need to submit your repository URL in Canvas:
+
+1. **Verify your changes are on GitHub**
+   - Go to your repository page on GitHub
+   - Refresh the page to see your latest changes
+   - You should see your commit message `"Add welcome image for Live Server demo"`
+     in the commit history
+   - You should see the `welcome-cats-dots.svg` file in your repository file list
+
+2. **Copy your repository URL**
+   - Copy the complete URL from your browser's address bar
+   - The URL should be the main page of your repository on GitHub
+
+3. **Submit in Canvas**
+   - Return to the Canvas assignment page
+   - Paste your repository URL in the text submission box
+   - Click **"Submit Assignment"** to complete your submission
+
+## Assignment Complete
+
+Once you've successfully imported and activated the profile, downloaded the
+image file, viewed the working webpage in Live Server, pushed your changes to
+GitHub, and submitted your repository URL in Canvas, you have completed this
+assignment. Your VS Code is now configured with professional web development
+tools.
 
 ## Beginner's Guide
 
-**What is a VS Code Profile?** Think of it like a "preset" for your text editor - it contains specific tools, colors, and settings all bundled together.
+**What is a VS Code Profile?** Think of it like a "preset" for your text
+editor - it contains specific tools, colors, and settings all bundled together.
 
-**What are Extensions?** Extensions are like apps for VS Code that add new features and capabilities.
+**What are Extensions?** Extensions are like apps for VS Code that add new
+features and capabilities.
 
-**Why do we all use the same setup?** Having the same VS Code setup makes learning easier and more consistent across the class.
+**Why do we all use the same setup?** Having the same VS Code setup makes
+learning easier and more consistent across the class.
 
 ## Contributing
 
-If you encounter issues with this profile setup, please discuss with your instructor during class or office hours.
+If you encounter issues with this profile setup, please discuss with your
+instructor during class or office hours.
 
 ## License
 
