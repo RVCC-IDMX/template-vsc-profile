@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Web Development I</title>
-    <meta name="description" content="Welcome page for Web Development I VS Code onboarding assignment">
+    <title>VS Code Profile Assignment - Success!</title>
+    <meta name="description" content="VS Code Profile Assignment completion test page for Web Development I">
     <meta name="author" content="Web Development I Course">
     <style>
         * {
@@ -15,7 +16,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1e5a96 0%, #3498db 100%);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -38,14 +39,14 @@
         }
 
         h1 {
-            color: #4a5568;
+            color: #1e5a96;
             margin-bottom: 1rem;
             font-size: 2.5rem;
             font-weight: 300;
         }
 
         .subtitle {
-            color: #718096;
+            color: #1e5a96;
             font-size: 1.2rem;
             margin-bottom: 2rem;
             font-weight: 400;
@@ -65,7 +66,7 @@
         }
 
         .success-message {
-            background: #48bb78;
+            background: #1e8449;
             color: white;
             padding: 1rem;
             border-radius: 10px;
@@ -74,20 +75,21 @@
         }
 
         .instructions {
-            background: #e2e8f0;
+            background: #f8f9fa;
             padding: 1.5rem;
             border-radius: 10px;
+            border-left: 4px solid #1e8449;
             margin-top: 2rem;
             text-align: left;
         }
 
         .instructions h3 {
-            color: #2d3748;
+            color: #1e5a96;
             margin-bottom: 1rem;
         }
 
         .instructions ol {
-            color: #4a5568;
+            color: #333;
             padding-left: 1.5rem;
         }
 
@@ -95,10 +97,44 @@
             margin-bottom: 0.5rem;
         }
 
+        .profile-info {
+            background: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .profile-info h3 {
+            color: #1e5a96;
+            margin-bottom: 1rem;
+        }
+
+        .profile-info ul {
+            color: #333;
+            padding-left: 1.5rem;
+        }
+
+        .profile-info li {
+            margin-bottom: 0.5rem;
+        }
+
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #2c3e50;
+        }
+
         .footer {
             margin-top: 2rem;
-            color: #a0aec0;
+            color: #2c3e50;
             font-size: 0.9rem;
+            text-align: left;
+            display: grid;
+            gap: 1em;
         }
 
         /* Animation for the container */
@@ -111,6 +147,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -134,53 +171,48 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>Welcome to Web Development I</h1>
-        <p class="subtitle">VS Code Onboarding Assignment</p>
+        <h1>VS Code Profile Assignment</h1>
+        <p class="subtitle">Assignment Completed Successfully!</p>
 
         <div class="svg-container">
             <img src="welcome-cats-dots.svg" alt="Welcome animation with cats and dots" class="welcome-svg">
         </div>
 
         <div class="success-message">
-            🎉 Congratulations! Live Server is working perfectly!
+            🎉 Excellent! Live Server and your profile are working perfectly!
         </div>
 
         <div class="instructions">
             <h3>What you've accomplished:</h3>
             <ol>
-                <li>Successfully cloned your repository</li>
-                <li>Installed the Grid Configurator extension</li>
-                <li>Configured your VS Code environment</li>
-                <li>Tested Live Server functionality</li>
+                <li>Imported and activated the "Web Dev I" VS Code profile</li>
+                <li>Set up HTMLHint for HTML code quality checking</li>
+                <li>Installed Live Server for local web development</li>
+                <li>Downloaded the <span class="code">welcome-cats-dots.svg</span> image file</li>
+                <li>Successfully tested your development environment</li>
             </ol>
         </div>
 
+        <div class="profile-info">
+            <h3>Your VS Code Profile includes:</h3>
+            <ul>
+                <li><strong>HTMLHint</strong> - Catches HTML errors and accessibility issues automatically</li>
+                <li><strong>Live Server</strong> - Local web server with live reload functionality</li>
+                <li><strong>Professional Settings</strong> - Auto-formatting, consistent indentation, and Git
+                    integration</li>
+                <li><strong>Optimized Validation</strong> - Enhanced support for HTML, CSS, and JavaScript</li>
+            </ul>
+        </div>
+
         <div class="footer">
-            <p>This page confirms that your development environment is working correctly.</p>
+            <p>This page demonstrates that your VS Code profile is configured correctly and Live Server is functional.
+            </p>
+            <p><strong>Next:</strong> Commit your changes and push to GitHub to complete the assignment.</p>
         </div>
     </div>
-
-    <script>
-        // Simple script to demonstrate VS Code's JavaScript support
-        console.log('Welcome to Web Development I!');
-        console.log('VS Code and Live Server are working correctly.');
-
-        // Add some interactivity
-        document.addEventListener('DOMContentLoaded', function() {
-            const container = document.querySelector('.container');
-
-            // Add a subtle hover effect
-            container.addEventListener('mouseenter', function() {
-                this.style.transform = 'scale(1.02)';
-                this.style.transition = 'transform 0.3s ease';
-            });
-
-            container.addEventListener('mouseleave', function() {
-                this.style.transform = 'scale(1)';
-            });
-        });
-    </script>
 </body>
+
 </html>

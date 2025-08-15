@@ -58,14 +58,14 @@ integration, and optimized validation for HTML, CSS, and JavaScript.
 1. **Make it active**
    - The imported profile will now be available in your Profiles list
    - Click the **gear icon** (⚙️) again, select **"Profiles"**, then click on
-     **"Web Dev I for GRID"** to activate it (you'll see a checkmark next to
+     **"Web Dev I"** to activate it (you'll see a checkmark next to
      the active profile)
    - VS Code will reload with the new profile settings and extensions
 
 2. **Verify it's active**
    - Look in the bottom-left corner of VS Code - the gear icon should now show
      a **graduation cap** (🎓) instead of the regular gear
-   - This icon indicates that "Web Dev I for GRID" is your active profile
+   - This icon indicates that "Web Dev I" is your active profile
    - Check Extensions (Ctrl+Shift+X) - you should see HTMLHint and Live Server
      installed
 
