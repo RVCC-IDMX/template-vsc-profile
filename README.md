@@ -35,12 +35,14 @@ integration, and optimized validation for HTML, CSS, and JavaScript.
 
 ### Step 1: Import the Profile
 
-1. **Open VS Code** (any project or empty window is fine)
+1. **Open VS Code**
+   - Be sure you are in the repo from Part 2 and you can see the same file listing inside VS Code Explorer
+   - In case it doesn't show up, then select **File → Recent** and click on it
 
 2. **Access the Profiles panel**
    - Look for the **gear icon** (⚙️) in the bottom-left corner of VS Code
    - Click the gear icon
-   - Select **"Profiles"** from the menu
+   - Select **"Profiles"** from the menu - you will Add a New Profile
 
 3. **Import the profile**
    - In the Profiles panel, look for **"Import Profile..."**
@@ -52,6 +54,8 @@ integration, and optimized validation for HTML, CSS, and JavaScript.
 4. **Create the profile**
    - The Profile creation form will open with the profile contents pre-selected
    - Review the profile contents and click **"Create"** to import the profile
+
+**✓ Success Check:** You should see a profile named "Web Dev I" in your Profiles list.
 
 ### Step 2: Activate the Profile
 
@@ -68,6 +72,8 @@ integration, and optimized validation for HTML, CSS, and JavaScript.
    - This icon indicates that "Web Dev I" is your active profile
    - Check Extensions (Ctrl+Shift+X) - you should see HTMLHint and Live Server
      installed
+
+**✓ Success Check:** Look for the graduation cap (🎓) icon in the bottom-left corner, see a checkmark next to "Web Dev I" in the Profiles menu, and confirm HTMLHint and Live Server appear in your Extensions panel.
 
 ### Step 3: Download the Missing Image File
 
@@ -88,6 +94,8 @@ downloaded:
    - Your browser should open showing the welcome page with the cat animation
    - If you see the image, everything is working correctly!
 
+**✓ Success Check:** Your browser should open automatically and show the welcome page with a cat animation. If the image appears, Live Server is working perfectly!
+
 ### Step 4: Commit and Push Your Changes
 
 Since you've added a new file (`welcome-cats-dots.svg`) to your repository,
@@ -106,6 +114,8 @@ you need to commit and push it:
    - Click the **three dots** (...) in the Source Control panel
    - Select **"Push"** from the menu
    - Your changes will be uploaded to GitHub
+
+**✓ Success Check:** Visit your repository on GitHub in your browser - you should see your new commit and the welcome-cats-dots.svg file in the file list.
 
 ### Step 5: Submit Your Repository URL
 
